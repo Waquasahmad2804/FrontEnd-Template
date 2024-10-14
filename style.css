@@ -1,0 +1,384 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+
+
+#header-container {
+    padding-top: 30px;
+    margin-bottom: 200px;
+    background-color: black;
+    
+}
+
+#horizontal{
+    border: 1px solid white;
+    padding: 0px;
+    margin-top: 0px;
+ }
+
+
+.row{
+    overflow: hidden;
+    padding: 25px;
+}
+.logo {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+   
+
+}
+
+#home-nav li{
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 30px;
+  
+}
+
+.dropdown{
+    display: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 35px;
+    padding-bottom: 0px;
+  z-index: 1000;
+  width: 350px;
+    background-color: black;
+    
+}
+#home-nav li:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+#dropdown-item li{
+    display: block;
+    margin-left: -1cm;
+}
+#home-nav a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    
+    font-family: 'Montserrat', sans-serif;}
+#nav-icon{
+    margin-left: 8px;
+}
+  
+
+#section-para p{
+    color: white;
+    margin-top: 180px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px; 
+    font-weight: 550;
+    opacity: 1;
+    
+}
+#section-para2{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+#section-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 110px;
+    position: absolute;
+    top: 82%; /* Adjust this value to move it up or down */
+    left: 60px; /* Adjust this value as needed */
+    color: white; /* Ensure the text color is visible */
+    z-index: 1; /* Make sure it's on top of the image */
+}
+
+img{
+    width: 100%;
+    margin-bottom: 130px;
+    margin-left: 50px; 
+}
+#search-glass i{
+    color: white;
+    margin-left: 40px;
+    
+}
+#service-box{
+    color: white;
+    margin-left: 40px; 
+}
+#service-box h3{
+    font-weight: 500;
+line-height: 2.5rem;}
+#service-box a{
+    color: #14cf93;
+}
+p{
+    color: white;
+    opacity: 0.8;
+    font-size: 17px;
+}
+
+  
+  #slider {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: slide 18s infinite linear;
+    width: 95%;
+    overflow: hidden;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-140%);
+    }
+  }
+  #slider:hover{
+    animation-play-state: paused;
+  }
+  #experience-heading{
+    display: flex;
+    margin-bottom: 150px;
+  }
+  #intro-add{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 24px;
+  }
+  #intro-add i{
+    color: #14cf93;
+    transform: rotate(90deg);
+  }
+ #experience-heading h2{
+   
+    color: white;
+    margin-left: 24px;
+    font-family: 'Allerta Stencil',sans-serif;
+    font-size: 70px;
+ }
+ #experience-heading h6{
+    color: white;  
+    margin-top: 45px;
+    margin-left: 30px;
+    letter-spacing: 2.5px;
+    font-weight:500;
+    opacity: 0.8;
+    font-size: 19px;
+     
+ }
+ #section-image2{
+    width: 30%;
+    height: 10%;
+   
+    transform: rotate(-19deg);
+    margin-top: 120px;
+    margin-left: 140px;
+ }
+ #section-image2 img{
+    border-radius: 40px;
+ }
+#add h4{
+    color: #14cf93;
+    font-size: 15px;
+    margin-left: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#add h2{
+    color: white;
+    font-weight: 400;
+    font-size: 70px;
+    margin-left: 30px;
+}
+#add h3{
+    color: white;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 0.7;
+    margin-left: 50px;
+}
+#feature h4{
+    color: #14cf93;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 150px;
+    letter-spacing: 2px;
+}
+#service-heading2{
+    margin-top: 60px;
+    margin-left: 40px;
+
+}
+
+#service-heading2 p{
+
+    font-weight: 600;
+    opacity: 1;
+}
+#services{
+    font-weight: 200;
+ 
+}
+.service-detail{
+    border: 1px solid white;
+    
+    border-radius: 5px;
+   margin: 20px 20px;
+    width: 20%;
+
+   
+}
+.service-detail img{
+  margin-left: 40%;
+  margin-top: 5%;
+    width: 20%;
+    height: 20%; 
+    margin-bottom: 50px;
+
+}
+ .service-detail h5{
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+#transparent
+ {
+    margin-top: 0;
+    color: white;
+    font-size: 60px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255 ,40%);
+    display: inline;
+}
+#bold{
+    color: white;
+    font-size: 60px;
+    margin-top: 150px;
+    display: inline;
+   margin-left: 20px;
+}
+#slider-row{
+    display: flex;
+    position: relative;
+    animation: slide 15s linear infinite;
+    max-width: auto;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+#portfolio-heading{
+    color: #14cf93;
+    letter-spacing: 3px;
+}
+#portfolio-para{
+    font-size: 60px;
+    font-weight: 550;
+    margin-bottom: 200px;
+  
+}
+#portfolio-para2{
+    font-size: 60px;
+    font-weight: 300;
+    margin-left: 40%;
+ 
+}
+#port-images1,
+#port-images2,
+#port-images3
+{
+display: flex;
+height: 400px;
+width: 300px;
+border-radius: 10px;
+margin-top: 50px;
+}
+ #port-images1:hover{
+    filter: blur(5px);
+  
+
+ }
+ #port-images2:hover{
+    filter: blur(5px);
+ }
+ #port-images3:hover{
+    filter: blur(5px);
+ }
+
+ #testimonials p{
+    color: #14cf93;
+    font-size: 20px;
+    letter-spacing: 3px;
+    opacity: 1;
+    margin-left: 100px;
+ }
+ #testimonials-heading{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    
+    
+ }
+ #testimonials-heading2{
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+
+ }
+ #testimonials-para{
+    color:white;
+    font-weight: 400;
+    opacity: 0.8;
+ }
+ #team-heading{
+    color: #14cf93;
+    font-size: 20px;
+    letter-spacing: 3px;
+    opacity: 1;
+    margin-top: 150px;
+ }
+ #test-bold{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+     
+ }
+ #test-light{
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    
+ }
+ #team-image2
+
+ {
+    border-radius: 30px;
+    margin-left: 90px;
+ }
+ #team-image3{
+    border-radius: 30px;
+    margin-left: 90px;
+ }
+ #team-image1{
+    
+    border-radius: 30px;
+ }
